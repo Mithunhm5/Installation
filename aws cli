@@ -1,0 +1,21 @@
+#Following commands are used to install awscli on ubuntu machine
+
+
+
+1.Download the installation script:
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+
+2.Install unzip (if not already installed):
+sudo apt install unzip -y
+
+
+
+3.Unzip the downloaded file:
+unzip awscliv2.zip
+
+3.Run the install script:
+sudo ./aws/install
+
+4.Verify the installation:
+aws --version
