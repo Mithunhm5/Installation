@@ -1,0 +1,5 @@
+#Run this command to install kubectl on ubuntu
+
+
+
+sudo snap install kubectl --classic
